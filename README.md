@@ -1,4 +1,4 @@
-# SnakeAI GitHub Repository
+# SnakeAI
 
 Welcome to the **SnakeAI** repository! This project combines the classic game of Snake with advanced AI techniques to create a sophisticated and challenging gameplay experience. The repository contains two main files:
 
