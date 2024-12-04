@@ -8,7 +8,7 @@ This file contains the implementation of the traditional Snake game using Pygame
 - **Fruit Class**: Manages the spawning and rendering of the fruit that the snake eats to grow.
 - **Main Game Logic**: Integrates the snake and fruit classes, handles collisions, game over conditions, and score display.
 
-## 2. `SnakeAI_DQL.py`
+## 2. `snakeAI.py`
 This file extends the traditional game with a Deep Q-Learning (DQL) agent to train the snake to play autonomously. Key components include:
 - **Deep Q-Network (DQN)**: A neural network designed to predict the best actions the snake should take to maximize its score.
 - **Environment Class**: Simulates the game environment, providing states, rewards, and handling game mechanics for the AI agent.
@@ -24,7 +24,7 @@ This file extends the traditional game with a Deep Q-Learning (DQL) agent to tra
 
 ## Project Structure
 - **`Snake.py`**: Traditional Snake game implementation.
-- **`SnakeAI_DQL.py`**: Deep Q-Learning implementation for the Snake game.
+- **`snakeAI.py`**: Deep Q-Learning implementation for the Snake game.
 - **`Graphics/`**: Contains image assets for the game.
 - **`Fonts/`**: Contains sound and font files for the game.
 - **`dqn_snake.pth`**: Pre-trained model weights (if available).
